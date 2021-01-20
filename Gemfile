@@ -35,7 +35,6 @@ gem 'rubocop'
 gem 'jslint_on_rails'
 
 gem 'pry-rails'
-gem 'graphql'
 gem 'graphql-client'
 
 
