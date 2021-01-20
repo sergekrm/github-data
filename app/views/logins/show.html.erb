@@ -1,0 +1,18 @@
+
+
+
+
+
+<h3 ><%= @user_name %> </h3>
+
+<div>
+    <% @user_repos.each do |repo|%>
+        <p>- <%=repo%></p>
+    <% end %>
+</div>
+
+<br>
+
+<div>
+    <%= link_to 'Back', url_for(:back) %>
+</div>
