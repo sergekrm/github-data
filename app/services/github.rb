@@ -1,5 +1,5 @@
 # require "graphql/client"
-# require "graphql/client/http"
+require "graphql/client/http"
 
 module Github
   GITHUB_ACCESS_TOKEN = ENV['GITHUB_ACCESS_TOKEN']
